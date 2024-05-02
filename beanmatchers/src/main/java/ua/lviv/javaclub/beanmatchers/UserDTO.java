@@ -25,8 +25,7 @@ public class UserDTO {
   public String getPassword() {
     return password;
   }
-
-
+  
   public void setPassword(String password) {
     this.password = password;
   }
@@ -48,7 +47,7 @@ public class UserDTO {
   public String toString() {
     return "UserDTO{" +
            "username='" + username + '\'' +
-           ", password='" + password + '\'' +
+           ", password='*****'" +
            '}';
   }
 }

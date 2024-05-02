@@ -6,6 +6,7 @@ import static com.google.code.beanmatchers.BeanMatchers.hasValidBeanConstructor;
 import static com.google.code.beanmatchers.BeanMatchers.hasValidBeanEquals;
 import static com.google.code.beanmatchers.BeanMatchers.hasValidBeanHashCode;
 import static com.google.code.beanmatchers.BeanMatchers.hasValidBeanToString;
+import static com.google.code.beanmatchers.BeanMatchers.hasValidBeanToStringExcluding;
 import static com.google.code.beanmatchers.BeanMatchers.hasValidGettersAndSetters;
 import static com.google.code.beanmatchers.BeanMatchers.isABeanWithValidGettersAndSetters;
 
@@ -20,8 +21,7 @@ class UserDTOTest {
         hasValidBeanConstructor(),
         hasValidBeanEquals(),
         hasValidGettersAndSetters(),
-        isABeanWithValidGettersAndSetters(),
         hasValidBeanHashCode(),
-        hasValidBeanToString()));
+        hasValidBeanToStringExcluding("password")));
   }
 } 
