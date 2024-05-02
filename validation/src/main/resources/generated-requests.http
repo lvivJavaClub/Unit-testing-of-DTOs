@@ -1,0 +1,26 @@
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "ihor",
+  "password": "123456789"
+}
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "ihor",
+  "password": "123"
+}
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "ihor",
+  "password": "password"
+} 
