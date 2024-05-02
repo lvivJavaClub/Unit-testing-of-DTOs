@@ -10,8 +10,8 @@ class UserDTOTest {
   void verifyBean() {
     BeanVerifier.verifyBean(UserDTO.class);
 
-//    BeanVerifier.forClass(UserDTO.class).
-//        verifyGettersAndSetters()
+//    BeanVerifier.forClass(UserDTO.class)
+//        .verifyGettersAndSetters()
 //        .verifyEqualsAndHashCode()
 //        .verifyToString();
   }

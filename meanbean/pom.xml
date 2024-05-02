@@ -4,8 +4,8 @@
   <groupId>ua.lviv.javaclub</groupId>
   <artifactId>meanbean</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - meanbean</name>
-  <url>http://maven.apache.org</url>
+  <name>Lviv JavaClub - meanbean</name>
+  <url>https://www.javaclub.lviv.ua/</url>
 
   <dependencies>
     <dependency>
